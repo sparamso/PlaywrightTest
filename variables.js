@@ -9,6 +9,7 @@ function printAge(){
     let isBirthday = true;
     if(isBirthday){
         age = Number(age);
+        console.log("Type of age after conversion inside if block is:"+ typeof age);
         age = age + 1;
         console.log("Type of age inside if block is:"+ age);
     }
@@ -20,4 +21,5 @@ height = "five";
 console.log("Type of height after reassignment is:"+ typeof height);
 console.log("Type of age outside function is:"+ age);
 printAge();
+
 
