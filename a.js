@@ -3,4 +3,22 @@ let y = 20;
 let sum = x + y;
 console.log("The sum of x and y is:", sum);
 
-console.log("End of the test file.");
+
+
+let age = "25";
+console.log("Type of Age is:"+ typeof age);
+let ageInNumber = Number(age);
+console.log("Type of Age after conversion is:"+ typeof ageInNumber);
+
+let height = "25.7";
+console.log("Type of height is:"+ typeof height);
+let heightInNumber = Number(height);
+
+console.log("Type of heightInNumber after conversion is:"+ typeof  heightInNumber);
+
+
+let isMarried = "false";
+console.log("Type of isMarried is:"+ typeof isMarried);
+let isMarriedBoolean = Boolean(isMarried);
+console.log("Type of isMarriedBoolean after conversion is:"+ typeof isMarriedBoolean );
+
