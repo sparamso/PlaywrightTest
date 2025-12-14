@@ -22,3 +22,7 @@ console.log("Type of isMarried is:"+ typeof isMarried);
 let isMarriedBoolean = Boolean(isMarried);
 console.log("Type of isMarriedBoolean after conversion is:"+ typeof isMarriedBoolean );
 
+let a= 30;
+console.log("A value: " + a);   
+a = "thirty";
+console.log("A value after reassignment: " + a);
