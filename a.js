@@ -26,3 +26,9 @@ let a= 30;
 console.log("A value: " + a);   
 a = "thirty";
 console.log("A value after reassignment: " + a);
+
+function greet(name) {
+    return `Hello, ${name}!`;
+}       
+console.log(greet("Alice"));
+console.log(greet("Bob"));
