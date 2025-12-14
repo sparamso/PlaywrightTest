@@ -32,3 +32,5 @@ function greet(name) {
 }       
 console.log(greet("Alice"));
 console.log(greet("Bob"));
+console.log(greet("Suki"));
+console.log(greet("Siva"));
